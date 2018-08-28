@@ -44,13 +44,13 @@ public class BlockNaturaBarley extends BlockOverworldCrops
     }
 
     @Override
-    protected ItemStack getSeed()
+    protected ItemStack getSeedStack()
     {
         return NaturaOverworld.barley_seeds.copy();
     }
 
     @Override
-    protected ItemStack getCrop()
+    protected ItemStack getCropStack()
     {
         return NaturaCommons.barley.copy();
     }

@@ -44,13 +44,13 @@ public class BlockNaturaCotton extends BlockOverworldCrops
     }
 
     @Override
-    protected ItemStack getSeed()
+    protected ItemStack getSeedStack()
     {
         return NaturaOverworld.cotton_seeds.copy();
     }
 
     @Override
-    protected ItemStack getCrop()
+    protected ItemStack getCropStack()
     {
         return NaturaCommons.cotton.copy();
     }
